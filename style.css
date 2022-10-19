@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+
+h1 {
+    width: 100%;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.5;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(253, 0, 0);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(255, 0, 0);
+    box-shadow: 10px 10px 5px 0px rgb(255, 8, 0);
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    transition: all 0.5s;
+    opacity: 0.5;
+    margin-bottom:20px
+  }
+  
+  .circle:hover {
+    opacity: 1;
+  }
+  
+  #red {
+    background-color: red;
+  }
+  
+  #yellow {
+    background-color: yellow;
+  }
+  
+  #green {
+    background-color: green;
+  }
